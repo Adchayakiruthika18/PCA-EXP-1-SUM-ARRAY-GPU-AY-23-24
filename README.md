@@ -265,4 +265,8 @@ int main(int argc, char **argv)
 <img width="1640" height="189" alt="Screenshot 2026-02-09 093403" src="https://github.com/user-attachments/assets/c9bb2a6e-aaa3-4ee2-b985-8bfc989cc9fd" />
 
 ## RESULT:
-Thus, Implementation of sum arrays on host and device is done in nvcc cuda using random number.
+Thus, Implementation of sum arrays on host and device is done in nvcc cuda using random number.Like the comparison is about,
+Fastest configuration: 13358 blocks × 1256 threads — 0.007381 s
+Second best: 16384 blocks × 1024 threads — 0.007573 s
+Slowest configuration: 16401 blocks × 1023 threads — 0.008005 s
+
